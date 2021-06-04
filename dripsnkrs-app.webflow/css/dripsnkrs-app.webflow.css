@@ -1,0 +1,364 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.main-hero-section {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.nav02 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.brand-centre {
+  margin-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.nav-link-full {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 13px 16px 10px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  color: #3f0a3d;
+  font-size: 15px;
+}
+
+.nav-link-full:hover {
+  border-bottom-color: #02676b;
+  color: #02676b;
+}
+
+.navigation-side {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-menu-base {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-link-mobile {
+  display: none;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 16px;
+  padding-left: 16px;
+  color: #3f0a3d;
+  font-size: 15px;
+}
+
+.nav-link-mobile:hover {
+  color: #02676b;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navigation-split {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  min-height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 20px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main-hero-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  margin-top: 31px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 7px none #000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('../images/Sneaker-Pile.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/Sneaker-Pile.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  font-size: 60px;
+}
+
+.paragraph {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.about-container {
+  padding-top: 61px;
+  font-family: 'Vanguard cf', sans-serif;
+}
+
+.heading-2 {
+  margin-bottom: 60px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #000;
+  font-size: 56px;
+  text-align: center;
+}
+
+.paragraph-2 {
+  padding-right: 100px;
+  padding-left: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #000;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.snkrs-section {
+  height: auto;
+}
+
+.snkrs-container {
+  height: auto;
+}
+
+.footer-section {
+  margin-top: 59px;
+}
+
+.link {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+  .brand-centre {
+    margin-right: 10px;
+  }
+
+  .nav-link-full {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-style: none;
+    color: #fff;
+  }
+
+  .nav-link-full:hover {
+    color: #fff;
+  }
+
+  .navigation-side {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .navigation-side.align-left {
+    display: none;
+  }
+
+  .nav-menu-base {
+    height: auto;
+    background-color: #3f0a3d;
+  }
+
+  .nav-link-mobile {
+    display: block;
+    width: 100%;
+    color: #fff;
+  }
+
+  .nav-link-mobile:hover {
+    color: #fff;
+  }
+
+  .navigation-split {
+    position: relative;
+    min-height: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .menu-button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(63, 10, 61, 0.1);
+    color: #3f0a3d;
+  }
+
+  .menu-button.w--open {
+    border-color: #02676b;
+    background-color: #3f0a3d;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .brand-centre {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navigation-side {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading {
+    line-height: 64px;
+    text-align: center;
+  }
+
+  .about-section {
+    height: auto;
+  }
+
+  .heading-2 {
+    margin-bottom: 20px;
+  }
+
+  .paragraph-2 {
+    margin-bottom: 46px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+  }
+
+  .grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@font-face {
+  font-family: 'Vanguard cf';
+  src: url('../fonts/Vanguard-CF-Heavy-Oblique.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
